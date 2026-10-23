@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to Jenkins</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <!-- Header / Hero Section -->
+    <header class="hero">
+        <div class="hero-content">
+            <div class="logo-container">
+                <!-- Animated Jenkins-inspired Gear Icon -->
+                <div class="gear large-gear"></div>
+                <div class="gear small-gear"></div>
+            </div>
+            <h1>Meet <span class="highlight">Jenkins</span></h1>
+            <p class="tagline">The leading open-source automation server enabling developers around the world to reliably build, test, and deploy their software.</p>
+            <a href="#animation-section" class="btn">See How It Works</a>
+        </div>
+    </header>
+
+    <!-- What is Jenkins Section -->
+    <section class="section">
+        <div class="container">
+            <h2>What is Jenkins?</h2>
+            <p class="section-desc">Jenkins is a self-contained, open-source automation server that can be used to automate all sorts of tasks related to building, testing, and delivering or deploying software.</p>
+            
+            <div class="cards-grid">
+                <div class="card">
+                    <h3>Continuous Integration (CI)</h3>
+                    <p>Automatically build and test code changes every time a developer commits to version control, catching bugs early.</p>
+                </div>
+                <div class="card">
+                    <h3>Continuous Delivery (CD)</h3>
+                    <p>Automate the release process so that tested code can be deployed to staging or production environments seamlessly.</p>
+                </div>
+                <div class="card">
+                    <h3>Extensible Ecosystem</h3>
+                    <p>With hundreds of plugins available in the Jenkins update center, it integrates with practically every tool in the CI/CD toolchain.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Animated Pipeline Section -->
+    <section id="animation-section" class="section dark-section">
+        <div class="container">
+            <h2>The Jenkins Pipeline in Action</h2>
+            <p class="section-desc">Watch how code travels automatically from development to production through a Jenkins automated pipeline.</p>
+            
+            <!-- Pipeline Animation Container -->
+            <div class="pipeline-container">
+                <!-- Code Commit Step -->
+                <div class="pipeline-step">
+                    <div class="node code-node">💻</div>
+                    <h4>1. Code Commit</h4>
+                    <p>Developer pushes code to GitHub.</p>
+                </div>
+
+                <div class="connector">
+                    <div class="pulse-dot"></div>
+                </div>
+
+                <!-- Jenkins Build Step -->
+                <div class="pipeline-step">
+                    <div class="node jenkins-node">
+                        <div class="mini-gear"></div>
+                    </div>
+                    <h4>2. Jenkins Build</h4>
+                    <p>Jenkins triggers automatically & compiles.</p>
+                </div>
+
+                <div class="connector">
+                    <div class="pulse-dot"></div>
+                </div>
+
+                <!-- Testing Step -->
+                <div class="pipeline-step">
+                    <div class="node test-node">🧪</div>
+                    <h4>3. Automated Tests</h4>
+                    <p>Unit & integration tests run safely.</p>
+                </div>
+
+                <div class="connector">
+                    <div class="pulse-dot"></div>
+                </div>
+
+                <!-- Deployment Step -->
+                <div class="pipeline-step">
+                    <div class="node deploy-node">🚀</div>
+                    <h4>4. Deployment</h4>
+                    <p>App deployed to production!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Jenkins Intro Page. Built with HTML & CSS Animations.</p>
+    </footer>
+
+</body>
+</html>
